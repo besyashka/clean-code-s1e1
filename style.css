@@ -17,10 +17,10 @@
   display: block;
   text-align: right;
 }
-.header .header-img {
+.header .header__img {
   width: 100%;
 }
-.header .header-link {
+.header .header__link {
   font-family: fantasy, cursive;
 }
 
@@ -39,7 +39,7 @@
   display: inline-block;
   flex-grow: 1;
 }
-.task-row-wrapper {
+.new-task__wrapper {
   display: flex;
 }
 .list {
@@ -128,12 +128,12 @@
 .item >    .input[type="text"] {
   width: 226px;
 }
-.button.delete .delete-img {
+.button.button__delete .button__delete-img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-.button.delete .delete-img:hover {
+.button.button__delete .button__delete-img:hover {
   transform: rotateZ(0);
 }
 
